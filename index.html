@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>WeatherApp</title>
+    <style>
+       
+       
+    </style>
+
+</head>
+<body>
+   <div class="whole">
+
+    <div class="container">
+        <h1>WeatherApp</h1>
+        <div class="input">
+            
+            <input type="search" id="search">
+            <button id="searchButton"><i class="fa fa-search"></i></button>
+        </div>
+      <div class="middle">
+        <div style="display: flex; gap:250px;">
+            <h4 id="cityname"><i class="material-icons">place</i>CityName</h4>
+
+            
+        <figure ><img src="images/sun.png" alt="icon" id="image">  </figure>
+        </div>
+        <p id="temp">30&deg;C</p>
+
+        <p id="figcaption">caption</p>
+  
+
+      </div>
+        <div id="result">
+
+            <p id="wind">wind</p>
+            <p id="humidity">humidity</p>
+            <p id="pressure">pressure</p>
+            <!-- <p id="mist">Mist</p>
+            <p id="cloudy">cloudy</p> -->
+        </div>
+    </div>
+   </div>
+</body>
+<script src="weather.js"></script>
+</html>

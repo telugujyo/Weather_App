@@ -1,0 +1,106 @@
+* {
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2d2d2d;
+    font-family: 'Arial', sans-serif;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border: 2px solid #404040;
+    background-color: #333333;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 500px;
+    height: 600px;
+    gap: 20px;
+    padding: 20px;
+}
+
+#search {
+    cursor: pointer;
+
+    padding: 10px;
+    width: 250px;
+    height: 35px;
+    border-radius: 10px 0px 0px 10px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.406);
+}
+
+#searchButton {
+    padding: 10px;
+    height: 35px;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.406);
+    border: 0;
+    cursor: pointer;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle {
+    border: 2px solid #404040;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#result {
+    border: 2px solid #404040;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+#cityname {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#image {
+    width: 40px;
+    height: 40px;
+    
+}
+
+#temp {
+    font-size: 40px;
+}
+h1{
+top: 0;
+margin-top: 9%;
+position: absolute;
+}
